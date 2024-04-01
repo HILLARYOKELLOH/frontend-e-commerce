@@ -1,0 +1,45 @@
+.variant-card {
+  background-color: #f3f4f6;
+  color: #4b5563;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.variant-image {
+  max-width: 200px;
+  margin-top: 0.5rem;
+}
+
+.variant-form {
+  display: flex;
+  flex-direction: column; /* Arrange form elements vertically */
+}
+
+.form-input {
+  margin-bottom: 1rem; /* Add spacing between form elements */
+  padding: 0.5rem;
+  border: 1px solid black; /* Change the outline color to black */
+}
+
+.form-button {
+  background-color: #f97316;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 1rem; /* Add spacing above the button */
+  margin-bottom: 1rem; /* Add spacing below the button */
+}
+.size-options label {
+  margin-right: 30px; /* Adjust the margin as needed */
+}
+
+.variant-description {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  padding: 0.5rem;
+  resize: vertical; /* Allow vertical resizing */
+}
